@@ -1,0 +1,25 @@
+{
+	
+	"folders":
+	[
+		{
+			"name": "Code Retreat",
+			"path": "/D/www/code_retreat"
+		}
+	],
+    "build_systems":
+    [
+        {
+            "name": "Run GameOfLife Test",
+            "cmd": ["php", "phpunit.php", "GameOfLifeTest.php"],
+            "shell": true,
+            "working_dir": "D:/www/code_retreat/"
+        },
+        {
+            "name": "Run GameOfLife",
+            "cmd": ["php", "GameOfLife.php"],
+            "shell": true,
+            "working_dir": "D:/www/code_retreat/"
+        }
+    ]
+}
